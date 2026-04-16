@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <!-- PRIMARY META TAGS 
+    <meta name="title" content="UrbanOak - Style Meets Comfort" />
+    <meta name="description" content="Discover the perfect blend of style and comfort with UrbanOak. 
+    Explore our premium furniture collection designed to elevate your living spaces." />
+  
+     -->
+    <!-- ============== REMIX ICON CDN ============== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- ============== SWIPER CSS ============== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!--TITLE-->
+    <title>UrbanOak</title>
+</head>
+
+<body>
+
+     <!-- CART OVERLAY -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <!-- CART SIDEBAR -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-sidebar-header">
+            <h3><i class="ri-shopping-cart-2-line"></i> Your Cart</h3>
+            <button class="cart-close-btn" id="cart-close-btn"><i class="ri-close-line"></i></button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <div class="cart-empty">
+                <i class="ri-shopping-cart-2-line"></i>
+                <p>Your cart is empty</p>
+            </div>
+        </div>
+        <!-- <div class="cart-footer">
+            <div class="cart-total-row">
+                <span>Total</span>
+                <span id="cart-total">$0.00</span>
+            </div>
+            <button class="checkout-btn">Checkout <i class="ri-arrow-right-line"></i></button>
+        </div> -->
+        <div class="cart-footer">
+    <div class="cart-total-row">
+        <span>Total</span>
+        <span id="cart-total">$0.00</span>
+    </div>
+
+    <a href="checkout.html" class="checkout-btn">
+        Checkout <i class="ri-arrow-right-line"></i>
+    </a>
+</div>
+    </div>
+
+     <!-- NAV BAR  --> 
+     <nav>
+        <div class="navbar">
+            <div class="nav-logo">
+                <a href="#" class="logo"><span>Urban</span>Oak</a>
+            </div>
+            <div class="nav-menu-btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+
+        <ul class="navlinks" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="navcart" id="nav-cart">
+            <div class="nav-cart" id="cart-icon">
+                <i class="ri-shopping-cart-2-line"></i>
+                <span class="cart-count" id="cart-count" style="display:none;">0</span>
+            </div>
+        </div>
+     </nav>
+
+
+    <!--  HEADER SECTION START  -->
+
+     <header class="section-container header-container" id="home">
+        <div class="header-image">
+            <img src="./img/header.png" alt="Header img">
+        </div>
+        <div class="header-content">
+            <div>
+                <h1>Transform Your Space with UrbanOak</h1>
+            <p>We will help you make elegant and luxurious interior 
+                designed by professional designers.</p>
+            </div>
+        </div>
+    </header>
+
+
+    <!--  DEALS SECTION  -->
+
+    <section class="section-container deals-container">
+
+        <div class="deals-cards">
+            <h2 class="section-header">Hot 🔥 Deals For You</h2>
+            <p>
+                Online shopping for retail sales direct to consumers.
+            </p>
+        </div>
+
+        <div class="deals-cards">
+            <span><i class="ri-cash-line"></i></span>
+            <h4>1.5% Cashback</h4>
+            <p>Earn a 5% cashback reward on all purchases.</p>
+        </div>
+        <div class="deals-cards">
+            <span><i class="ri-calendar-schedule-line"></i></span>
+            <h4>30 Days Terms</h4>
+            <p>Take advantage of our 30-day interest free payment terms.</p>
+        </div>
+        <div class="deals-cards">
+            <span><i class="ri-money-dollar-circle-line"></i></span>
+            <h4>Save Money</h4>
+            <p>Discover unbeatable prices and save big money on top-quality furniture!</p>
+        </div>
+    </section>
+
+
+    <!--  ABOUT SECTION  -->
+
+    <section class="section-container about-section" id="about">
+
+        <div class="about-header">
+            <div>
+                <h2 class="section-header">About Us</h2>
+                <p class="section-description">
+                    Our dedication to fine craftsmanship inspires us to offer thoughtfully designed premium pieces 
+                    for every space in your home.
+                </p>
+
+            </div>
+
+            <!-- <button class="about-btn">Learn More</button> -->
+
+        </div>
+
+        <div class="about-content">
+            <div class="about-image">
+                <img src="./img/about.png" alt="">
+            </div>
+
+             <div class="about-grid">
+                <div class="about-card">
+                    <h3>1.</h3>
+                    <h4>Who we are</h4>
+                    <p>We are a design-focused brand committed to blending craftsmanship, comfort, and modern living.</p>
+                </div>
+
+                <div class="about-card">
+                    <h3>2.</h3>
+                    <h4>What we do</h4>
+                    <p>We design and craft high-quality furniture tailored to your needs, bringing comfort, style, and functionality into every space.</p>
+                </div>
+
+                <div class="about-card">
+                    <h3>3.</h3>
+                    <h4>Our Mission</h4>
+                    <p>Our mission is to create beautiful, functional, and sustainable furniture that enhances the way you live.</p>
+                </div>
+
+                <div class="about-card">
+                    <h3>4.</h3>
+                    <h4>Our Values</h4>
+                    <p>We believe in creating furniture that not only looks beautiful but also stands the test of time, both in quality and design.</p>
+                </div>
+             </div>
+        </div>
+
+    </section>
+
+    <!-- PRODUCT SECTION START  -->
+
+    <section class="section-container product-container" id="products">
+        <h2 class="section-header">Our Products</h2>
+        <div class="product-grid">
+
+            <div class="product-cards">
+                <button type="button">
+                    Add to Cart
+                    <i class="ri-shopping-cart-line"></i>
+                </button>
+                <h4>Fabric Chair</h4>
+                <p>$110</p>
+                <img src="./img/product-1.png" alt="product-1">
+            </div>
+            
+            <div class="product-cards">
+                <button type="button">
+                    Add to Cart
+                    <i class="ri-shopping-cart-line"></i>
+                </button>
+                <h4>Lamp</h4>
+                <p>$30</p>
+                <img src="./img/product-2.png" alt="product-2">
+            </div>
+
+            <div class="product-cards">
+                <button type="button">
+                    Add to Cart
+                    <i class="ri-shopping-cart-line"></i>
+                </button>
+                <h4>Arlo Accent Chair</h4>
+                <p>$120</p>
+                <img src="./img/product-3.png" alt="product-3">
+            </div>
+
+            <div class="product-cards">
+                <button type="button">
+                    Add to Cart
+                    <i class="ri-shopping-cart-line"></i>
+                </button>
+                <h4>Barrel Sofa</h4>
+                <p>$200</p>
+                <img src="./img/product-4.png" alt="product-4">
+            </div>
+            
+            <div class="product-cards">
+                <button type="button">
+                    Add to Cart
+                    <i class="ri-shopping-cart-line"></i>
+                </button>
+                <h4>Lounge Chair</h4>
+                <p>$150</p>
+                <img src="./img/product-5.png" alt="product-5">
+            </div>
+            
+            <div class="product-cards">
+                <button type="button">
+                    Add to Cart
+                    <i class="ri-shopping-cart-line"></i>
+                </button>
+                <h4>Bannet Chair</h4>
+                <p>$40</p>
+                <img src="./img/product-6.png" alt="product-6">
+            </div>
+
+            <div class="product-cards">
+                <button type="button">
+                    Add to Cart
+                    <i class="ri-shopping-cart-line"></i>
+                </button>
+                <h4>Sofa Set</h4>
+                <p>$175</p>
+                <img src="./img/blue sofa set.png" alt="product-7">
+            </div>
+            <div class="product-cards">
+                <button type="button">
+                    Add to Cart
+                    <i class="ri-shopping-cart-line"></i>
+                </button>
+                <h4>L shaped Sofa</h4>
+                <p>$500</p>
+                <img src="./img/Lshaped.png" alt="product-8">
+            </div>
+            
+            <div class="product-cards">
+                <button type="button">
+                    Add to Cart
+                    <i class="ri-shopping-cart-line"></i>
+                </button>
+                <h4>Dining Set</h4>
+                <p>$200</p>
+                <img src="./img/diningset.png" alt="product-8">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--  CLIENT SECTION START  -->
+
+    <section class="section-container client-container">
+        <div class="client-content">
+            <h2 class="section-header">What Our Clients Say</h2>
+            <p class="section-description">
+                Client testimonials reflecting our dedication to quality, exceptional service, and customer satisfaction.
+            </p>
+        </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="client-card">
+                            <img src="./img/person1.png" alt="Client 1">
+                            <div>
+                            <p>UrbanOak completely transformed our living space. The craftsmanship and attention to detail are truly outstanding.</p>
+                            <h4>Daniel Carter</h4>
+                            <h5>Architecture</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="swiper-slide">
+                        <div class="client-card">
+                            <img src="./img/user-1.png" alt="Client 2">
+                            <div>
+                            <p>
+                                I absolutely love my new sofa from UrbanOak! It's so comfortable and the design fits perfectly with my living room decor. 
+                                Plus, the 5% cashback offer was a fantastic bonus!
+                            </p>
+                            <h4>Emily Johnson</h4>
+                            <h5>Interior Designer</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="swiper-slide">
+                        <div class="client-card">
+                            <img src="./img/user-3.png" alt="Client 3">
+                            <div>
+                            <p>UrbanOak completely transformed our living space. The craftsmanship and attention to detail are truly outstanding.</p>
+                            <h4>Sophia Martinez</h4>
+                            <h5>Entrepreneur</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="client-card">
+                            <img src="./img/person2.png" alt="Client 4">
+                            <div>
+                            <p>The furniture feels premium, perfectly finished, and adds a warm, modern elegance to our home that exceeded all expectations.</p>
+                            <h4>Andrew Tate</h4>
+                            <h5>Entrepreneur</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+
+    <!--  FOOTER SECTION START  -->
+
+    <footer class="footer" id="contact">
+        <div class="section-container footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <a href="#" class="logo">UrbanOak</a>
+                </div>
+                <p>
+                    Join Us in transforming your living spaces with furniture that blends style, comfort, and sustainability.<br>
+                    <br/>
+                    Whatsapp: +92 333 1234567 <br/>
+                    <br/>
+                    Email: urbanoak.com.pk
+                </p>
+                <ul class="footer-socials">
+                    <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+                    <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+                    <li><a href="#"><i class="ri-pinterest-line"></i></a></li>   
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Furniture Design</a></li>
+                    <li><a href="#">Custom Manufacturing</a></li>
+                    <li><a href="#">Interior Consultation</a></li>
+                    <li><a href="#">Furniture Accessories</a></li>
+                    <li><a href="#">Furniture Restoration</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#contact">Customer Testimonials</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Returns & Refund</a></li>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Payment Methods</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bar">
+            <p>Copyright © 2026 UrbanOak by TILAL HUSSAIN. All rights reserved.</p>
+        </div>
+
+
+    </footer>
+
+    <!--  SCROLL REVEAL JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--  SWIPER BUNDLE JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--  CUSTOM JS  -->
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>
